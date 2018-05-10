@@ -20,6 +20,11 @@ open("http://www.google.com", "firefox");
 
     npm install open
 
+or include it via CDN:
+```html
+<script src="https://cdn.jsdelivr.net/npm/open@/lib/open.min.js"></script>
+```
+
 # How it works
 
 - on `win32` uses `start`
